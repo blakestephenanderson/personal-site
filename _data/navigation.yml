@@ -1,9 +1,7 @@
 # main links
 main:
-  #- title: "About"
-  #  url: /_posts/about.md
   - title: "Medium Posts"
-   url: https://blakestephenanderson.medium.com/
+    url: https://blakestephenanderson.medium.com/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
