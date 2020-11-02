@@ -1,11 +1,10 @@
 # main links
 main:
-  - title: "Language Blog"
+   - title: "About"
+    url: /about/
+  - title: "All Posts"
     url: /year-archive/
-  - title: "Medium Posts"
-    url: https://blakestephenanderson.medium.com/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
