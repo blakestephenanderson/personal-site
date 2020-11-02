@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Language Blog"
+    url: /year-archive/
   - title: "Medium Posts"
     url: https://blakestephenanderson.medium.com/
   # - title: "Sample Posts"
