@@ -2,7 +2,11 @@
 permalink: /about/
 title: "About"
 
-last_modified_at: 2020-11-01
+last_modified_at: 2020-11-02
+
+header:
+  overlay_image: /assets/images/background-about.jpg
+  
 ---
 
 Blake Anderson is a San Diego-based writer whose interests vary from subway planning to strategy games to Byzatine history (with a hefty serving of fiction fandom and language geekery in between). He enjoys writing both fiction and non-fiction.
