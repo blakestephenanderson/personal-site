@@ -1,8 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-header:
-	overlay_image: /images/background-about.jpg
 
 last_modified_at: 2020-11-01
 ---
