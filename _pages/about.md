@@ -3,7 +3,8 @@ permalink: /about/
 title: About
 tags: []
 modified: 06-07-2018
-layout: wide
+layout: single
+classes: wide
 header:
   overlay_image: /assets/images/background-about.jpg
 ---
