@@ -13,8 +13,6 @@ tags:
   - blog
 ---
 
-_Originally published: 2018-07-31_
-
 There is no other city in the world like Taipei.
 
 The statement may sound like some banal utterance headlining a paid tourism advert or the first sentence in the fiftieth edition of some travel guide; however, I mean it when I say that of the many places I have visited around the world, there is _no other place_ with a similar feeling.
@@ -148,3 +146,5 @@ Taipei’s MRT system was the city’s most recent sweeping transformation, and 
 As I said before: there is no other city in the world like Taipei.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/taipeimain.jpeg" alt="">
+
+_Originally published: 2018-07-31_
