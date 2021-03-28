@@ -1,5 +1,5 @@
 ---
-title: "Pet names in Japanese and Chinesepetnm"
+title: "Pet names in Japanese and Chinese"
 header:
   image: /assets/images/petnames.jpeg
   caption: "How do you call your partner or friends? Image by Kaito Kikuchi — Own Work"
