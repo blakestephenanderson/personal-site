@@ -1,0 +1,94 @@
+/* Base Typography */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #101010;
+  background-color: #ffffff;
+}
+
+/* Header Banner */
+.banner {
+  background-color: #101010;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.button {
+  background-color: #790C07;
+  color: #ffffff;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+/* Inner Page Titles and Text */
+.page-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content {
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Captions */
+figcaption {
+  font-size: 10px;
+  font-weight: 300;
+  color: #101010;
+  text-align: center;
+}
+
+/* Blog Page Styles */
+.posts-list {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.post-preview h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #790C07;
+}
+
+.post-preview p {
+  font-size: 12px;
+  color: #101010;
+  line-height: 1.6;
+}
+
+.post-preview a {
+  text-decoration: none;
+  color: #790C07;
+}
+
+.post-preview a:hover {
+  text-decoration: underline;
+}
