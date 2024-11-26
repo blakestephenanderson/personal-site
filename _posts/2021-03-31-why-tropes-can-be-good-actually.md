@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Why tropes can be good, actually"
+date: 2021-03-31
 header:
   image: /assets/images/trope.jpeg
   caption: "And when it's okay to use them in your works of fiction. Image by Kaito Kikuchi — Own Work"

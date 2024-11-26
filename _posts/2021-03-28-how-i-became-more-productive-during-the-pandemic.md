@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "How I became more productive during the pandemic"
+date: 2021-03-28
 header:
   image: /assets/images/productive1.jpeg
 categories:

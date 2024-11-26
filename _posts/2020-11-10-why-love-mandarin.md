@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Why I loved learning Mandarin Chinese"
+date: 2020-11-10
 header:
   image: /assets/images/chinatown.jpeg
   caption: "Photo credit: Public Domain"

@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "The Rebranded Half of Roman History"
+date: 2021-03-27
 header:
   image: /assets/images/rebrandedrome1.jpeg
   caption: "San Vitale, Ravenna, Italy, by Petar Milošević — Own work, CC BY-SA 4.0"

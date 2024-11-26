@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Slight tricks to make your Chinese sound more native"
+date: 2021-03-28
 header:
   image: /assets/images/chinesenative.jpeg
 categories:

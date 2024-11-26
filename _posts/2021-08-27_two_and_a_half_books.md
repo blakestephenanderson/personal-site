@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "What I learned from writing two-and-a-half books"
+date: 2021-08-27
 header:
   image: /assets/images/twoandahalfbooks.jpeg
   caption: "For novelists with an architect’s mind and a gardener’s soul."

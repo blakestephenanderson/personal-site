@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Unorthodox Language-Learning Tips from a Polyglot"
+date: 2020-11-01
 header:
   image: /assets/images/kaitodrawing.png
   caption: "Photo credit: Kaito Kikuchi"

@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "The Story of Taipei"
+date: 2020-11-10
 header:
   image: /assets/images/storyoftaipei.jpeg
   caption: "Photo credit: Blake Anderson"

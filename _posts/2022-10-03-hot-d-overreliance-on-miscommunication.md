@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "House of the Dragon’s Overreliance on Miscommunication"
+date: 2022-10-03
 header:
   image: /assets/images/alicentrhaenyra.jpeg
   caption: "Image from Digital Mafia Talkies"

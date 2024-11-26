@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Historical simulation games, the good and the not-so-good"
+date: 2021-10-09
 header:
   image: /assets/images/ck3article.png
   caption: "Are they an underutilized teaching tool, or do their underlying assumptions result in misunderstandings?"
