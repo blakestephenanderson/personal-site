@@ -1,28 +1,55 @@
+/* Global Styles */
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  background-color: #ffffff;
-  color: #101010;
+  background-color: #ffffff; /* Main background color */
+  color: #101010; /* Text over white background should be dark */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Update font as desired */
+  margin: 0;
+  padding: 0;
 }
 
-/* Banner styles */
+/* Banner and Headings */
 .banner {
-  background-color: #101010;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px;
+  background-color: #101010; /* Dark banner background */
+  text-align: center; /* Center content in the banner */
+  padding: 40px 20px;
 }
 
-/* Button styles */
-.button {
-  background-color: #790C07;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin: 10px;
-  text-decoration: none;
-  font-size: 35px;
-  display: inline-block;
+/* Style for h1 and h2 in the banner */
+.banner h1 {
+  font-size: 4em; /* Double the size of the standard heading (~2em default => 4em) */
+  color: #ffffff; /* White text over dark background */
+  margin: 0;
+  font-weight: bold; /* Ensures the heading stands out */
 }
+
+.banner h2 {
+  font-size: 1.5em; /* Slightly smaller than h1 */
+  color: #ffffff; /* White text over dark background */
+  margin: 10px 0 0 0;
+}
+
+/* Buttons Section */
+.buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Space between buttons */
+  margin-top: 40px; /* Add some space below the banner */
+}
+
+.buttons a {
+  background-color: #790C07; /* Red button background */
+  color: #ffffff; /* White text over red background */
+  text-decoration: none;
+  padding: 15px 30px; /* Spacing inside the buttons */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.2em; /* Slightly larger text on buttons */
+}
+
+/* On hover, give a slight effect to indicate interactivity */
+.buttons a:hover {
+  background-color: #5e0905; /* Slightly darker red on hover */
+}
+
 
 /* Additional styles for inner pages */
 h1 {
