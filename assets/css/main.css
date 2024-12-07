@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-/* Ensure html and body take full height */
+/* Ensure html and body take full height, set global font */
 html, body {
   height: 100%;
   font-family: 'Helvetica Neue', sans-serif;
@@ -15,14 +15,14 @@ html, body {
 .page-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; /* Ensures full viewport height */
 }
 
 /* Main expands to fill space between header and footer */
 main {
   flex: 1; 
-  background-color: #ffffff; 
-  color: #101010;
+  background-color: #ffffff; /* Main background: white */
+  color: #101010; /* Dark text on white background */
   display: flex;
   flex-direction: column; 
   justify-content: start;
@@ -30,9 +30,9 @@ main {
   padding-top: 40px;
 }
 
-/* Banner styles */
+/* Banner (header) styles */
 .banner {
-  background-color: #101010; 
+  background-color: #101010; /* Dark banner background */
   text-align: center;
   padding: 40px 20px;
 }
@@ -42,7 +42,7 @@ main {
   color: #ffffff;
   margin: 0;
   font-weight: bold; /* Bold for main heading */
-  font-family: 'Helvetica Neue', sans-serif; /* Ensures H1 uses Helvetica Neue */
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 .banner h2 {
@@ -50,7 +50,7 @@ main {
   color: #ffffff;
   margin: 10px 0 0 0;
   font-weight: 300; /* Light weight for sub-header */
-  font-family: 'Helvetica Neue', sans-serif; /* Ensures H2 uses Helvetica Neue Light */
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 /* Buttons section */
@@ -60,10 +60,17 @@ main {
   gap: 20px;
 }
 
+/* Additional spacing before the resume button */
+.resume-button {
+  margin-top: 60px; /* Increased from 20px to 60px for triple spacing */
+  text-align: center;
+}
+
+/* Styles for all buttons (main three and resume) */
 .buttons a,
 .resume-button a {
-  background-color: #790C07; 
-  color: #ffffff; 
+  background-color: #C88141; /* Orange button background */
+  color: #ffffff; /* White text on orange */
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 10px; 
@@ -71,15 +78,10 @@ main {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+/* Hover effect for buttons: slightly darker orange */
 .buttons a:hover,
 .resume-button a:hover {
-  background-color: #C88141; /* Orange hover */
-}
-
-/* Resume button section */
-.resume-button {
-  margin-top: 20px; 
-  text-align: center;
+  background-color: #a66830; /* Darker orange hover color */
 }
 
 /* Footer at the bottom, centered content */
