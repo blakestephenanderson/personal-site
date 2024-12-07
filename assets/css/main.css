@@ -1,248 +1,95 @@
-/* Global Styles */
-body {
-  background-color: #ffffff; /* Main background color */
-  color: #101010; /* Text over white background should be dark */
-  font-family: 'Helvetica Neue', Arial, sans-serif; /* Update font as desired */
+/* Reset box-sizing and margins */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Banner and Headings */
+/* Ensure html and body take full height */
+html, body {
+  height: 100%;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Flex container for entire page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main expands to fill space between header and footer */
+main {
+  flex: 1; 
+  background-color: #ffffff; 
+  color: #101010;
+  display: flex;
+  flex-direction: column; 
+  justify-content: start;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* Banner styles */
 .banner {
-  background-color: #101010; /* Dark banner background */
-  text-align: center; /* Center content in the banner */
+  background-color: #101010; 
+  text-align: center;
   padding: 40px 20px;
 }
 
-/* Style for h1 and h2 in the banner */
 .banner h1 {
-  font-size: 4em; /* Double the size of the standard heading (~2em default => 4em) */
-  color: #ffffff; /* White text over dark background */
+  font-size: 4em; 
+  color: #ffffff;
   margin: 0;
-  font-weight: bold; /* Ensures the heading stands out */
+  font-weight: bold; /* Bold for main heading */
+  font-family: 'Helvetica Neue', sans-serif; /* Ensures H1 uses Helvetica Neue */
 }
 
 .banner h2 {
-  font-size: 1.5em; /* Slightly smaller than h1 */
-  color: #ffffff; /* White text over dark background */
+  font-size: 1.5em;
+  color: #ffffff;
   margin: 10px 0 0 0;
+  font-weight: 300; /* Light weight for sub-header */
+  font-family: 'Helvetica Neue', sans-serif; /* Ensures H2 uses Helvetica Neue Light */
 }
 
-/* Buttons Section */
+/* Buttons section */
 .buttons {
   display: flex;
-  justify-content: center; /* Center the buttons horizontally */
-  gap: 20px; /* Space between buttons */
-  margin-top: 40px; /* Add some space below the banner */
+  justify-content: center;
+  gap: 20px;
 }
 
-.buttons a {
-  background-color: #790C07; /* Red button background */
-  color: #ffffff; /* White text over red background */
+.buttons a,
+.resume-button a {
+  background-color: #790C07; 
+  color: #ffffff; 
   text-decoration: none;
-  padding: 15px 30px; /* Spacing inside the buttons */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 1.2em; /* Slightly larger text on buttons */
-}
-
-/* On hover, give a slight effect to indicate interactivity */
-.buttons a:hover {
-  background-color: #5e0905; /* Slightly darker red on hover */
-}
-
-
-/* Additional styles for inner pages */
-h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 35px;
-  font-weight: bold;
-}
-
-p {
-  font-size: 12px;
-}
-
-.caption {
-  font-size: 10px;
-  font-weight: lighter;
-}
-
-/* Styles for posts */
-.post-container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.post-date {
-  font-size: 12px;
-  color: #666;
-}
-
-.post-header-image img {
-  max-width: 100%;
-  height: auto;
-}
-
-.caption {
-  font-size: 10px;
-  font-weight: lighter;
-  text-align: center;
-  color: #666;
-}
-
-.post-categories, .post-tags {
-  font-size: 12px;
-  margin-top: 20px;
-}
-
-.post-categories a, .post-tags a {
-  color: #790C07;
-  text-decoration: none;
-}
-
-.post-categories a:hover, .post-tags a:hover {
-  text-decoration: underline;
-}
-
-/* Search input */
-#search-input {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-}
-
-/* Search results */
-#results-container {
-  list-style-type: none;
-  padding: 0;
-}
-
-#results-container li {
-  margin-bottom: 20px;
-}
-
-#results-container li a {
-  font-size: 18px;
-  color: #790C07;
-  text-decoration: none;
-}
-
-#results-container li small {
-  font-size: 12px;
-  color: #666;
-}
-
-/* Search label */
-label[for="search-input"] {
-  display: block;
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-/* Footer Styles */
-.site-footer {
-  background-color: #101010; /* Dark gray background */
-  color: #ffffff; /* White text */
+  padding: 15px 30px;
+  border-radius: 10px; 
+  font-size: 1.2em;
   font-family: 'Helvetica Neue', sans-serif;
-  padding: 20px 0;
 }
 
-.footer-container {
-  width: 80%;
-  margin: 0 auto;
+.buttons a:hover,
+.resume-button a:hover {
+  background-color: #C88141; /* Orange hover */
+}
+
+/* Resume button section */
+.resume-button {
+  margin-top: 20px; 
+  text-align: center;
+}
+
+/* Footer at the bottom, centered content */
+.site-footer {
+  background-color: #101010;
+  color: #ffffff;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center; 
+  font-family: 'Helvetica Neue', sans-serif;
 }
-
-.footer-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer-nav ul li {
-  margin-bottom: 5px;
-}
-
-.footer-nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.footer-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-/* References Section */
-.references {
-  margin-top: 20px;
-}
-
-.references h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.references ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.references ul li {
-  margin-bottom: 5px;
-}
-
-.references ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.references ul li a:hover {
-  text-decoration: underline;
-}
-
-.footer-copy {
-  margin-top: 20px;
-  font-size: 12px;
-}
-
-.back-to-top {
-  margin-top: 10px;
-}
-
-.back-to-top a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.back-to-top a:hover {
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-nav,
-  .references,
-  .footer-copy,
-  .back-to-top {
-    margin-bottom: 15px;
-  }
-}
-
-
