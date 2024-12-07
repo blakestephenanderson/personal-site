@@ -62,7 +62,7 @@ main {
 
 /* Additional spacing before the resume button */
 .resume-button {
-  margin-top: 60px; /* Increased from 20px to 60px for triple spacing */
+  margin-top: 50px;
   text-align: center;
 }
 
