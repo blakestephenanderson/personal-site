@@ -60,28 +60,47 @@ main .banner {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
-/* About Page Content */
-.about-content {
-  width: 80%;
-  max-width: 800px;
-  margin: 40px auto;
-  position: relative;
-}
-
 /* Profile Image styling */
 .profile-image {
   float: left;
-  max-width: 200px; /* Ensures the image is not huge on mobile/desktop */
-  margin: 0 20px 20px 0; /* Adds spacing so text doesn't collide */
+  max-width: 250px; /* Ensures the image is not huge on mobile/desktop */
+  margin: 0 25px 25px 0; /* Adds spacing so text doesn't collide */
 }
 
-/* Enlarge first letter of the first paragraph in About page */
+/* Enlarge first letter of the first paragraph in the about me paragraph */
 .about-content p:first-of-type::first-letter {
   font-size: 200%;
   font-weight: bold;
   line-height: 1;
   display: inline-block;
   margin-right: 5px;
+}
+
+/* Intro content */
+.intro-content {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto 0 auto; /* 40px top margin from banner area */
+  position: relative;
+}
+
+.intro-content p {
+  font-size: 1em;
+  line-height: 1.4;
+  color: #101010;
+}
+
+/* 50px spacer */
+.spacer-50 {
+  height: 50px;
+}
+
+/* Section divider line - faint gray, centered */
+.section-divider {
+  width: 150px;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 auto;
 }
 
 /* Buttons section (used on index page, footer, etc.) */
