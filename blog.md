@@ -4,7 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
-<h1>Blog</h1>
+<div class="banner">
+  <h1>Blog</h1>
+</div>
 
 <!-- Search input with label -->
 <label for="search-input">Search Blog Posts:</label>
@@ -12,6 +14,20 @@ permalink: /blog/
 
 <!-- Search results -->
 <ul id="results-container"></ul>
+
+<!-- Blog Post Cards -->
+<div class="blog-grid">
+  {% for post in site.posts %}
+  <article class="blog-card">
+    <img src="{{ post.header.image | relative_url }}" alt="{{ post.title }}">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="meta">{{ post.date | date: "%B %d, %Y" }} | Categories: {{ post.categories | join: ", " }} | Tags: {{ post.tags | join: ", " }}</p>
+    <p>
+      {{ post.content | strip_html | truncatewords: 30 }}
+    </p>
+  </article>
+  {% endfor %}
+</div>
 
 <!-- Include the search script -->
 <script src="{{ '/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
@@ -26,6 +42,6 @@ permalink: /blog/
     limit: 10,
     fuzzy: false,
     exclude: [''],
-    searchFields: ['title', 'categories', 'tags'] // Exclude 'content' since it's not in search.json
+    searchFields: ['title', 'categories', 'tags']
   });
 </script>
