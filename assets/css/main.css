@@ -69,8 +69,17 @@ p {
   color: #101010;
 }
 
-/* Enlarge the first letter of each paragraph across the site */
-p::first-letter {
+/* Enlarged first letter on first paragraph on homepage */
+.intro-content p:first-of-type::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 0.1em;
+}
+
+/* Enlarged first letter on first paragraph in blog posts */
+.post-content p:first-of-type::first-letter {
   font-size: 200%;
   font-weight: bold;
   line-height: 1;
