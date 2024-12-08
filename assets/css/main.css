@@ -170,6 +170,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin-top: 25px;
   text-align: center;
   font-family: 'Helvetica Neue', sans-serif;
 }
@@ -268,3 +269,23 @@ p {
   line-height: 1.4;
   color: #101010;
 }
+
+/* Animation fadeins and fadouts */
+.clear-selection-button {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Fade In: When .show is added, button fades in */
+.clear-selection-button.show {
+  opacity: 1;
+}
+
+/* Fade Out: Remove .show and add fade-out if needed,
+   But we can handle just by toggling .show. If we want a more explicit fade-out class: */
+.fade-out {
+  opacity: 0;
+}
+
+/* Since I removed .show to fade out, ensure display isn't set to none immediately.
+   If I want to eventually hide it from tab order after fade out, I can do so in JS after transitionend event. */
