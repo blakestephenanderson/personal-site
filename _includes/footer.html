@@ -3,10 +3,18 @@
     <div class="footer-nav">
       <h3>Navigation</h3>
       <div class="footer-buttons">
-        <a href="/">Home</a>
-        <a href="/about/">About Me</a>
-        <a href="/portfolio/">Portfolio</a>
-        <a href="/blog/">Blog</a>
+        {% unless page.url == '/' %}
+          <a href="/">Home</a>
+        {% endunless %}
+        {% unless page.url == '/about/' %}
+          <a href="/about/">About Me</a>
+        {% endunless %}
+        {% unless page.url == '/portfolio/' %}
+          <a href="/portfolio/">Portfolio</a>
+        {% endunless %}
+        {% unless page.url == '/blog/' %}
+          <a href="/blog/">Blog</a>
+        {% endunless %}
       </div>
     </div>
 
@@ -15,7 +23,7 @@
       <div class="footer-buttons">
         <a href="mailto:your-email@example.com">Email Me</a>
         <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-        <a href="/assets/files/BlakeAndersonResume.pdf" download>Download Resume</a>
+        <a href="/assets/files/BlakeAndersonResume.pdf" download>⇩ Download Resume</a>
       </div>
     </div>
   </div>
