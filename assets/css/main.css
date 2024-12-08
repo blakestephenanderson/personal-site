@@ -60,6 +60,24 @@ main .banner {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+/* Paragraph Styling */
+p {
+  margin-bottom: 2em; /* Double spacing between paragraphs */
+  text-indent: 2em;   /* First line indent */
+  line-height: 1.6;
+  font-size: 1em; /* Default text size */
+  color: #101010;
+}
+
+/* Enlarge the first letter of each paragraph across the site */
+p::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 0.1em;
+}
+
 /* Profile Image styling */
 .profile-image {
   float: left;
@@ -149,7 +167,7 @@ main .banner {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .footer-sections h3 {
@@ -168,6 +186,25 @@ main .banner {
 
 .footer-buttons a {
   margin: 0;
+}
+
+/* Headings for Buttons Style */
+.section-heading {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;        /* Light weight */
+  font-size: 1.5em;        /* Same size as sub-header */
+  letter-spacing: 0.1em;   /* Increased letter-spacing */
+  margin-bottom: 25px;     /* 25px vertical spacing below heading */
+}
+
+/* On white background (e.g., in main content), heading should be black */
+.section-heading--light-bg {
+  color: #101010; /* Black/dark text on white background */
+}
+
+/* On dark banner (e.g., in footer), heading should be white */
+.section-heading--dark-bg {
+  color: #ffffff; /* White text on dark background */
 }
 
 /* Blog Grid and Cards */
