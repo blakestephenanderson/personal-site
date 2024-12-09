@@ -348,3 +348,70 @@ p {
   font-weight: bold;
   cursor: pointer;
 }
+
+.post-extent {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.post-title {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #101010;
+  font-size: 1.4em; /* slightly smaller than "Blog" heading (which was 4em?), adjust as needed */
+  margin-bottom: 20px;
+}
+
+.post-subtitle {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #101010;
+  font-size: 1.5em; /* same size as light headings in footer? adjust accordingly */
+  margin-bottom: 20px;
+}
+
+.post-header-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.post-header-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.post-image-caption {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #101010;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+/* Body images:
+   - Embedded left/right: smaller and text wraps
+   - Centered: larger, text does not wrap
+*/
+
+.post-content img.embedded-left {
+  float: left;
+  max-width: 250px;
+  margin: 0 20px 20px 0;
+}
+
+.post-content img.embedded-right {
+  float: right;
+  max-width: 250px;
+  margin: 0 0 20px 20px;
+}
+
+.post-content img.centered {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+  float: none; /* no wrap for centered images */
+}
