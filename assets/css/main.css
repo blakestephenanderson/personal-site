@@ -415,3 +415,53 @@ p {
   height: auto;
   float: none; /* no wrap for centered images */
 }
+
+/* Portfolio Content */
+.portfolio-extent {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  position: relative;
+}
+
+/* Light-gray, high-transparency background for each item */
+.portfolio-item {
+  background-color: rgba(200,200,200,0.2);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Header & Image layout */
+.portfolio-header-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Portfolio item header */
+.portfolio-item-header {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #101010;
+  font-size: 1.4em; /* slightly smaller than "Portfolio" heading (which might be 4em?), adjust as needed */
+  margin: 0;
+}
+
+/* Preview image fixed small size */
+.portfolio-preview-image {
+  max-width: 100px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  align-self: flex-start; /* top alignment */
+}
+
+/* Paragraphs follow site conventions, but no enlarged first letter here */
+.portfolio-content p {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  color: #101010;
+  line-height: 1.6;
+  text-indent: 2em;
+  margin-bottom: 2em; /* double spacing between paragraphs */
+}
