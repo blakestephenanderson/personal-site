@@ -49,6 +49,7 @@ main .banner {
   color: #ffffff;
   margin: 0;
   font-weight: bold;
+  text-align:center;
   font-family: 'Helvetica Neue', sans-serif;
 }
 
@@ -57,6 +58,7 @@ main .banner {
   color: #ffffff;
   margin: 10px 0 0 0;
   font-weight: 300; /* Light weight for sub-header */
+  text-align:center;
   font-family: 'Helvetica Neue', sans-serif;
 }
 
