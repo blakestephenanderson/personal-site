@@ -9,7 +9,7 @@ permalink: /portfolio/
 </div>
 
 <main class="portfolio-extent">
-  <!-- Example Portfolio Item -->
+  <!-- Test Portfolio Item -->
   <div class="portfolio-item">
     <div class="portfolio-content">
       <div class="portfolio-header-wrapper">
