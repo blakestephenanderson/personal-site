@@ -5,7 +5,6 @@
   <title>{{ page.title }} | Blake Anderson</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/assets/images/logo.png">
-  <!-- Include the CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body id="top" class="page-container">
@@ -15,10 +14,10 @@
     </a>
     <div class="banner-text">
       {% if page.title == "Home" %}
-        <h1>Blake Anderson</h1>
-        <h2>GIS Professional, Author</h2>
+        <h1 style="text-align:center;">Blake Anderson</h1>
+        <h2 style="text-align:center;">GIS Professional, Author</h2>
       {% else %}
-        <h1>{{ page.title }}</h1>
+        <h1 style="text-align:center;">{{ page.title }}</h1>
       {% endif %}
     </div>
   </header>
