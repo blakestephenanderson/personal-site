@@ -4,10 +4,6 @@ title: "Short Stories"
 permalink: /short-stories/
 ---
 
-<div class="banner">
-  <h1>Short Stories</h1>
-</div>
-
 <main>
   <div class="blog-grid">
     {% for story in site.stories %}

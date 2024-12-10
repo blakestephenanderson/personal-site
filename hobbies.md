@@ -4,10 +4,6 @@ title: "Hobbies"
 permalink: /hobbies/
 ---
 
-<div class="banner">
-  <h1>Hobbies</h1>
-</div>
-
 <main>
   <div class="gallery">
     <div class="gallery-item">
@@ -42,6 +38,9 @@ permalink: /hobbies/
     </div>
     <div class="gallery-item">
       <img src="/assets/images/hobbies_baking_applecake.jpg" alt="Apple cake" class="gallery-thumb" data-caption="Come autumn, I start to bake all things apple">
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/images/hobbies_trains.jpg" alt="Shinkansen" class="gallery-thumb" data-caption="I've had a life-long obession with trains; especially Japan's">
     </div>
   </div>
 </main>

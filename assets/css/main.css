@@ -454,13 +454,13 @@ p {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: bold;
   color: #101010;
-  font-size: 2.1em; /* slightly smaller than "Portfolio" heading (which might be 4em?), adjust as needed */
+  font-size: 2.5em; 
   margin: 0;
 }
 
 /* Preview image fixed small size */
 .portfolio-preview-image {
-  max-width: 110px;
+  max-width: 100px;
   height: auto;
   border-radius: 5px;
   object-fit: cover;
@@ -475,8 +475,8 @@ p {
   color: #101010;
   line-height: 1.6;
   text-indent: 2em;
-  text-align: justify;
   margin-bottom: 2em; /* double spacing between paragraphs */
+  text-align: justify;
 }
 
 .banner {

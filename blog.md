@@ -4,10 +4,6 @@ title: "Blog"
 permalink: /blog/
 ---
 
-<div class="banner">
-  <h1>Blog</h1>
-</div>
-
 <main>
   <div class="blog-grid">
     {% for post in site.posts %}
