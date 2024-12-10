@@ -18,7 +18,7 @@ permalink: /portfolio/
         </h2>
         <img src="/assets/images/portfolio_hwytracker.png" alt="Highway Tracker & Hotspots" class="portfolio-preview-image">
       </div>
-      <p>Collaboratively developed a GIS dashboard showcasing average daily traffic volumes (ADT), speed, and vehicle miles traveled (VMT) on regional freeways throughout the COVID-19 pandemic, with data spanning from January 2020 to September 2023.</p>
+      <p>Collaboratively developed a GIS dashboard showcasing average daily traffic volumes (ADT), speed, and vehicle miles traveled (VMT) on the San Diego region's freeways throughout the COVID-19 pandemic, with data spanning from January 2020 to September 2023. Dashboard was featured on the local news.</p>
     </div>
   </div>
 
