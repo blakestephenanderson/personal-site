@@ -4,10 +4,6 @@ title: "Portfolio"
 permalink: /portfolio/
 ---
 
-<div class="banner">
-  <h1>Portfolio</h1>
-</div>
-
 <main class="portfolio-extent">
   <!-- Test Portfolio Item -->
   <div class="portfolio-item">
