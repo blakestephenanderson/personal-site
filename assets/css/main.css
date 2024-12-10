@@ -449,6 +449,12 @@ p {
   gap: 20px;
 }
 
+.portfolio-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 /* Portfolio item header */
 .portfolio-item-header {
   font-family: 'Helvetica Neue', sans-serif;
@@ -456,6 +462,18 @@ p {
   color: #101010;
   font-size: 2.5em; 
   margin: 0;
+  line-height: 1; /* Helps align image top */
+}
+
+/* Portfolio Description Header (a.k.a. Subheader) */
+.portfolio-item-subheader {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300; /* Light */
+  color: #101010;
+  font-size: 1.2em; /* Slightly larger than normal text */
+  margin-top: 10px; /* Space between title and subheader */
+  margin-bottom: 20px; /* Space before paragraph */
+  line-height: 1; /* Consistent line-height for alignment */
 }
 
 /* Preview image fixed small size */
@@ -464,8 +482,12 @@ p {
   height: auto;
   border-radius: 5px;
   object-fit: cover;
+  height: 60px;
+  width: auto;
   align-self: flex-start;
   margin-left: auto; /* pushes image to the far right */
+  margin-top: 0; /* align top with title text top */
+  margin-bottom: 0; /* align bottom with subheader baseline */
 }
 
 /* Paragraphs follow site conventions, but no enlarged first letter here */
