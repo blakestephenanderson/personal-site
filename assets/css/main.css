@@ -376,9 +376,13 @@ main .banner {
   height: auto;
   border-radius: 5px;
   cursor: pointer;
+  transition: box-shadow 0.3s ease; /* Smooth transition */
 }
 
-/* The rest of the gallery code remains unchanged */
+.gallery-thumb:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Subtle shadow */
+}
+
 .gallery-modal {
   display: none; 
   position: fixed; 
