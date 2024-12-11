@@ -25,6 +25,8 @@
         <h1 class="banner-page-title">Blog</h1>
       {% elsif page.collection == "stories" %}
         <h1 class="banner-page-title">Short Stories</h1>
+      {% elsif page.layout == "project" %}
+        <h1 class="banner-page-title">Portfolio</h1>
       {% else %}
         <h1 class="banner-page-title">{{ page.title }}</h1>
       {% endif %}
