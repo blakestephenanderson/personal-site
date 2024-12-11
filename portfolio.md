@@ -9,7 +9,7 @@ permalink: /portfolio/
     <div class="portfolio-content">
       <img src="/assets/images/portfolio_hwytracker.png" alt="Highway Tracker & Hotspots" class="portfolio-preview-image">
       <h2 class="portfolio-item-header">
-        <a href="/portfolio/project/highway-tracker-hotspots/">Highway Tracker & Hotspots</a>
+        <a href="highway-tracker-hotspots/">Highway Tracker & Hotspots</a>
       </h2>
     </div>
   </div>
