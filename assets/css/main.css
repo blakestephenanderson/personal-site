@@ -98,6 +98,16 @@ p {
   min-height: 100vh; /* Ensures full viewport height */
 }
 
+.gray-box {
+  background-color: rgba(200, 200, 200, 0.2); 
+  /* Same light-gray, high-transparency background */
+  padding: 20px;
+  border-radius: 5px;
+  display: block; /* ensure a simple block-level container */
+  width: auto;    /* let it shrink/grow as per content */
+  margin-bottom: 20px; /* some spacing below the box if needed */
+}
+
 /* Main expands to fill space between header and footer */
 main {
   flex: 1; 
@@ -515,13 +525,6 @@ main .banner {
   max-width: 800px;
   margin: 40px auto;
   position: relative;
-}
-
-/* Light-gray, high-transparency background for each item */
-.portfolio-item {
-  background-color: rgba(200,200,200,0.2);
-  padding: 20px;
-  border-radius: 5px;
 }
 
 /* Header & Image layout */

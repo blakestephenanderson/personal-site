@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 <main class="portfolio-extent">
-  <div class="portfolio-item">
+  <div class="gray-box">
     <div class="portfolio-content">
       <div class="portfolio-header-wrapper">
         <div class="portfolio-header-text">
