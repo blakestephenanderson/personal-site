@@ -215,7 +215,7 @@ main .banner {
   font-size: 1.2em;
   font-family: 'Helvetica Neue', sans-serif;
   display: inline-block;
-  margin: 5px;
+  margin: 10px;
 }
 
 .banner-nav-buttons a:hover {
@@ -227,7 +227,7 @@ main .banner {
 }
 
 .site-logo {
-  max-height: 100px;
+  max-height: 130px;
   cursor: pointer;
 }
 
