@@ -98,15 +98,6 @@ p {
   min-height: 100vh; /* Ensures full viewport height */
 }
 
-/* Light-gray, high-transparency background for text, photos, items, etc. */
-.gray-flex-container {
-  background-color: rgba(200,200,200,0.2);
-  padding: 20px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  width: 100%; /* ensures it can span full width if needed */
-
 /* Main expands to fill space between header and footer */
 main {
   flex: 1; 
@@ -359,7 +350,7 @@ main .banner {
 
 
 /* ------------------------------------------------------------
-   GALLERY STYLES
+   GALLERY STYLES (Hobbies, etc.)
 ------------------------------------------------------------ */
 
 .gallery {
@@ -367,11 +358,14 @@ main .banner {
   max-width: 1200px;
   margin: 40px auto;
   display: grid;
-  /* Changed line: fixed 4 columns and larger image sizes:
-     Use minmax(300px, 1fr) for larger size.
-  */
-  grid-template-columns: repeat(4, minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
   gap: 20px;
+}
+
+@media(max-width: 1000px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
+  }
 }
 
 .gallery-item {
@@ -385,7 +379,6 @@ main .banner {
   cursor: pointer;
 }
 
-/* The rest of the gallery code remains unchanged */
 .gallery-modal {
   display: none; 
   position: fixed; 
@@ -518,6 +511,13 @@ main .banner {
   max-width: 800px;
   margin: 40px auto;
   position: relative;
+}
+
+/* Light-gray, high-transparency background for each item */
+.portfolio-item {
+  background-color: rgba(200,200,200,0.2);
+  padding: 20px;
+  border-radius: 5px;
 }
 
 /* Header & Image layout */
