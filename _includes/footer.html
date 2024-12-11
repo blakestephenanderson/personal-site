@@ -7,9 +7,12 @@
         <a href="mailto:blakestephenanderson@gmail.com">Email Me</a>
         <a href="https://www.linkedin.com/in/blakeanderson31/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://bsky.app/profile/blakeanderson.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
-        <a href="/assets/files/BlakeAndersonResume.pdf" download>⇩ Download Resume</a>
+        {% unless page.title == "Home" %}
+          <a href="/assets/files/BlakeAndersonResume.pdf" download>⇩ Download Resume</a>
+        {% endunless %}
       </div>
     </div>
   </div>
   <p style="color:#ffffff; text-align:center; font-family:'Helvetica Neue', sans-serif; margin-top:25px;">&copy; 2024 Blake Anderson. All rights reserved.</p>
 </footer>
+
