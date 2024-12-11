@@ -350,7 +350,7 @@ main .banner {
 
 
 /* ------------------------------------------------------------
-   GALLERY STYLES (Hobbies, etc.)
+   GALLERY STYLES
 ------------------------------------------------------------ */
 
 .gallery {
@@ -358,15 +358,14 @@ main .banner {
   max-width: 1200px;
   margin: 40px auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+  /* Changed line: fixed 4 columns and larger image sizes:
+     Use minmax(300px, 1fr) to ensure each image ~3x original size.
+  */
+  grid-template-columns: repeat(4, minmax(300px,1fr));
   gap: 20px;
 }
 
-@media(max-width: 1000px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
-  }
-}
+/* Remove the entire @media(max-width: 1000px) block, as it's no longer needed */
 
 .gallery-item {
   position: relative;
@@ -379,6 +378,7 @@ main .banner {
   cursor: pointer;
 }
 
+/* The rest of the gallery code remains unchanged */
 .gallery-modal {
   display: none; 
   position: fixed; 
