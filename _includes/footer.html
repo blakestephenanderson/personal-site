@@ -1,29 +1,6 @@
 <footer class="site-footer">
   <div class="footer-sections" style="flex-direction: column; align-items: center;">
 
-    {% unless page.title == "Home" %}
-    <div class="footer-nav">
-      <h3 class="section-heading section-heading--dark-bg">Navigation</h3>
-      <div class="footer-buttons">
-        {% unless page.url == '/' %}
-          <a href="/">Home</a>
-        {% endunless %}
-        {% unless page.url == '/hobbies/' %}
-          <a href="/hobbies/">Hobbies</a>
-        {% endunless %}
-        {% unless page.url == '/portfolio/' %}
-          <a href="/portfolio/">Portfolio</a>
-        {% endunless %}
-        {% unless page.url == '/blog/' %}
-          <a href="/blog/">Blog</a>
-        {% endunless %}
-        {% unless page.url == '/short-stories/' %}
-          <a href="/short-stories/">Short Stories</a>
-        {% endunless %}
-      </div>
-    </div>
-    {% endunless %}
-
     <div class="footer-refs">
       <h3 class="section-heading section-heading--dark-bg">Contact</h3>
       <div class="footer-buttons">

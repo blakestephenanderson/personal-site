@@ -9,6 +9,12 @@
 </head>
 <body id="top" class="page-container">
   <header class="banner">
+    <!-- Left: Site Logo -->
+    <a href="/" class="site-logo-link">
+      <img src="/assets/images/logo_blackbkgnd.png" alt="Site Logo" class="site-logo">
+    </a>
+
+    <!-- Center: Page Title Logic -->
     {% if page.title == "Home" %}
       <div class="home-banner-content">
         <h1>Blake Anderson</h1>
@@ -20,15 +26,30 @@
       {% elsif page.collection == "stories" %}
         <h1 class="banner-page-title">Short Stories</h1>
       {% else %}
-        <!-- fallback if needed -->
         <h1 class="banner-page-title">{{ page.title }}</h1>
       {% endif %}
     {% else %}
-      <a href="/" class="site-logo-link">
-        <img src="/assets/images/logo_blackbkgnd.png" alt="Site Logo" class="site-logo">
-      </a>
       <h1 class="banner-page-title">{{ page.title }}</h1>
     {% endif %}
+
+    <!-- Right: Navigation Buttons -->
+    <div class="banner-nav-buttons">
+      {% unless page.url == '/' %}
+        <a href="/">Home</a>
+      {% endunless %}
+      {% unless page.url == '/hobbies/' %}
+        <a href="/hobbies/">Hobbies</a>
+      {% endunless %}
+      {% unless page.url == '/portfolio/' %}
+        <a href="/portfolio/">Portfolio</a>
+      {% endunless %}
+      {% unless page.url == '/blog/' %}
+        <a href="/blog/">Blog</a>
+      {% endunless %}
+      {% unless page.url == '/short-stories/' %}
+        <a href="/short-stories/">Short Stories</a>
+      {% endunless %}
+    </div>
   </header>
 
   <main>
