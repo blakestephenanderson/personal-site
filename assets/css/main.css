@@ -32,10 +32,11 @@ main {
 
 /* Banner (header) styles */
 .banner {
-  background-color: #101010; /* Dark banner background */
-  text-align: center;
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* For homepage center alignment */
   padding: 40px 20px;
-  width: 100%; /* Ensures banner spans full width */
   box-sizing: border-box;
 }
 
@@ -44,22 +45,49 @@ main .banner {
   align-self: stretch;
 }
 
-.banner h1 {
-  font-size: 4em;
+/* Homepage banner: center h1 and h2 */
+.home-banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.home-banner-content h1, .home-banner-content h2 {
+  text-align: center;
   color: #ffffff;
   margin: 0;
+}
+
+.home-banner-content h1 {
+  font-size: 4em;
   font-weight: bold;
-  text-align:center;
   font-family: 'Helvetica Neue', sans-serif;
 }
 
-.banner h2 {
+.home-banner-content h2 {
   font-size: 1.5em;
-  color: #ffffff;
-  margin: 10px 0 0 0;
-  font-weight: 300; /* Light weight for sub-header */
-  text-align:center;
+  font-weight: 300;
+  margin-top: 10px;
   font-family: 'Helvetica Neue', sans-serif;
+}
+
+.banner-page-title {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold; /* as previously defined */
+  font-size: 4em; /* or whatever size was originally for page titles */
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto; /* let it center between logo and right edge */
+}
+
+.site-logo-link {
+  margin-right: auto; /* push h1 to center by taking up left side space */
+}
+
+.site-logo {
+  max-height: 80px;
+  cursor: pointer;
 }
 
 /* Paragraph Styling */
@@ -503,30 +531,4 @@ p {
   text-indent: 2em;
   margin-bottom: 2em; /* double spacing between paragraphs */
   text-align: justify;
-}
-
-.banner {
-  background-color: #101010;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 20px;
-  box-sizing: border-box;
-}
-
-.site-logo {
-  max-height: 80px;
-  margin-right: 20px;
-}
-
-.banner-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #ffffff;
-}
-
-.banner-text h1, .banner-text h2 {
-  margin: 0;
-  text-align: center;
 }
