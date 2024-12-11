@@ -1,3 +1,7 @@
+/* ------------------------------------------------------------
+   RESET & BASE STYLES
+------------------------------------------------------------ */
+
 /* Reset box-sizing and margins */
 * {
   box-sizing: border-box;
@@ -10,6 +14,82 @@ html, body {
   height: 100%;
   font-family: 'Helvetica Neue', sans-serif;
 }
+
+/* Paragraph Styling (Global) */
+p {
+  margin-bottom: 2em; /* Double spacing between paragraphs */
+  text-indent: 2em;   /* First line indent */
+  line-height: 1.6;
+  font-size: 1em; /* Default text size */
+  text-align: justify;
+  color: #101010;
+}
+
+/* Spacers */
+.spacer-50 {
+  height: 50px;
+}
+
+.spacer-25 {
+  height: 25px;
+}
+
+/* Section divider line - faint gray, centered */
+.section-divider {
+  width: 150px;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Headings for Buttons Style */
+.section-heading {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;        /* Light weight */
+  font-size: 1.5em;        /* Same size as sub-header */
+  letter-spacing: 0.1em;   /* Increased letter-spacing */
+  margin-bottom: 25px;     /* 25px vertical spacing below heading */
+}
+
+.section-heading--light-bg {
+  color: #101010; /* Black/dark text on white background */
+}
+
+.section-heading--dark-bg {
+  color: #ffffff; /* White text on dark background */
+}
+
+/* Buttons (Used on index page, footer, etc.) */
+.buttons a,
+.resume-button a,
+.footer-buttons a {
+  background-color: #C88141; /* Orange button background */
+  color: #ffffff; /* White text on orange */
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px; 
+  font-size: 1.2em;
+  font-family: 'Helvetica Neue', sans-serif;
+  display: inline-block;
+  margin: 5px; /* Some spacing between buttons */
+}
+
+.buttons a:hover,
+.resume-button a:hover,
+.footer-buttons a:hover {
+  background-color: #a66830; /* Darker orange hover color */
+}
+
+/* Resume button section */
+.resume-button {
+  margin-top: 60px; /* Triple spacing */
+  text-align: center;
+}
+
+
+/* ------------------------------------------------------------
+   LAYOUT & CONTAINERS
+------------------------------------------------------------ */
 
 /* Flex container for entire page */
 .page-container {
@@ -29,6 +109,46 @@ main {
   align-items: center;
   padding-top: 40px;
 }
+
+/* Intro content (Homepage) */
+.intro-content {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto 0 auto; /* 40px top margin from banner area */
+  position: relative;
+}
+
+/* Modify intro-content paragraphs */
+.intro-content p {
+  font-size: 1em;
+  line-height: 1.4;
+  text-align: justify;
+  color: #101010;
+}
+
+/* About content first paragraph enlarged letter */
+.about-content p:first-of-type::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: justify;
+}
+
+/* Enlarged first letter on first paragraph on homepage */
+.intro-content p:first-of-type::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 0.1em;
+}
+
+
+/* ------------------------------------------------------------
+   BANNER & HEADER
+------------------------------------------------------------ */
 
 /* Banner (header) styles */
 .banner {
@@ -74,8 +194,8 @@ main .banner {
 
 .banner-page-title {
   font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold; /* as previously defined */
-  font-size: 4em; /* or whatever size was originally for page titles */
+  font-weight: bold;
+  font-size: 4em;
   color: #ffffff;
   text-align: center;
   margin: 0 auto; /* let it center between logo and right edge */
@@ -90,25 +210,6 @@ main .banner {
   cursor: pointer;
 }
 
-/* Paragraph Styling */
-p {
-  margin-bottom: 2em; /* Double spacing between paragraphs */
-  text-indent: 2em;   /* First line indent */
-  line-height: 1.6;
-  font-size: 1em; /* Default text size */
-  text-align: justify;
-  color: #101010;
-}
-
-/* Enlarged first letter on first paragraph on homepage */
-.intro-content p:first-of-type::first-letter {
-  font-size: 200%;
-  font-weight: bold;
-  line-height: 1;
-  display: inline-block;
-  margin-right: 0.1em;
-}
-
 /* Profile Image styling */
 .profile-image {
   float: left;
@@ -116,77 +217,11 @@ p {
   margin: 0 25px 25px 0; /* Adds spacing so text doesn't collide */
 }
 
-/* Enlarge first letter of the first paragraph in the about me paragraph */
-.about-content p:first-of-type::first-letter {
-  font-size: 200%;
-  font-weight: bold;
-  line-height: 1;
-  display: inline-block;
-  margin-right: 5px;
-  text-align: justify;
-}
 
-/* Intro content */
-.intro-content {
-  width: 80%;
-  max-width: 800px;
-  margin: 40px auto 0 auto; /* 40px top margin from banner area */
-  position: relative;
-}
+/* ------------------------------------------------------------
+   FOOTER STYLES
+------------------------------------------------------------ */
 
-.intro-content p {
-  font-size: 1em;
-  line-height: 1.4;
-  text-align: justify;
-  color: #101010;
-}
-
-/* Spacers */
-.spacer-50 {
-  height: 50px;
-}
-
-.spacer-25 {
-  height: 25px;
-}
-
-/* Section divider line - faint gray, centered */
-.section-divider {
-  width: 150px;
-  border: none;
-  border-top: 1px solid #ccc;
-  margin: 0 auto;
-}
-
-/* Buttons section (used on index page, footer, etc.) */
-.buttons a,
-.resume-button a,
-.footer-buttons a {
-  background-color: #C88141; /* Orange button background */
-  color: #ffffff; /* White text on orange */
-  text-decoration: none;
-  padding: 15px 30px;
-  border-radius: 10px; 
-  font-size: 1.2em;
-  font-family: 'Helvetica Neue', sans-serif;
-  display: inline-block;
-  margin: 5px; /* Some spacing between buttons */
-}
-
-/* Hover effect for buttons: slightly darker orange */
-.buttons a:hover,
-.resume-button a:hover,
-.footer-buttons a:hover {
-  background-color: #a66830; /* Darker orange hover color */
-}
-
-/* Resume button section */
-.resume-button {
-  margin-top: 60px; /* Triple spacing */
-  text-align: center;
-}
-
-/* Footer Styles */
 .site-footer {
   background-color: #101010;
   color: #ffffff;
@@ -208,7 +243,6 @@ p {
   margin-bottom: 25px;
 }
 
-/* Footer Buttons Container */
 .footer-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -220,26 +254,11 @@ p {
   margin: 0;
 }
 
-/* Headings for Buttons Style */
-.section-heading {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: 300;        /* Light weight */
-  font-size: 1.5em;        /* Same size as sub-header */
-  letter-spacing: 0.1em;   /* Increased letter-spacing */
-  margin-bottom: 25px;     /* 25px vertical spacing below heading */
-}
 
-/* On white background (e.g., in main content), heading should be black */
-.section-heading--light-bg {
-  color: #101010; /* Black/dark text on white background */
-}
+/* ------------------------------------------------------------
+   BLOG GRID & CARDS
+------------------------------------------------------------ */
 
-/* On dark banner (e.g., in footer), heading should be white */
-.section-heading--dark-bg {
-  color: #ffffff; /* White text on dark background */
-}
-
-/* Blog Grid and Cards */
 .blog-grid {
   width: 90%;
   max-width: 1200px;
@@ -294,25 +313,24 @@ p {
   color: #101010;
 }
 
-/* Animation fadeins and fadouts */
+/* Animation fade-ins and fade-outs for tag selection (if used) */
 .clear-selection-button {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
 
-/* Fade In: When .show is added, button fades in */
 .clear-selection-button.show {
   opacity: 1;
 }
 
-/* Fade Out: Remove .show and add fade-out if needed,
-   But we can handle just by toggling .show. If we want a more explicit fade-out class: */
 .fade-out {
   opacity: 0;
 }
 
-/* Since I removed .show to fade out, ensure display isn't set to none immediately.
-   If I want to eventually hide it from tab order after fade out, I can do so in JS after transitionend event. */
+
+/* ------------------------------------------------------------
+   GALLERY STYLES (Hobbies, etc.)
+------------------------------------------------------------ */
 
 .gallery {
   width: 80%;
@@ -379,6 +397,11 @@ p {
   cursor: pointer;
 }
 
+
+/* ------------------------------------------------------------
+   POST & SHORT STORIES CONTENT
+------------------------------------------------------------ */
+
 .post-extent {
   width: 80%;
   max-width: 800px;
@@ -398,7 +421,7 @@ p {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 300;
   color: #101010;
-  font-size: 1.5em; /* same size as light headings in footer? adjust accordingly */
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
 
@@ -421,7 +444,6 @@ p {
   font-size: 1em;
   margin-top: 5px;
   text-align: center;
-  /* no first-letter rule here */
 }
 
 /* Enlarged first letter on first paragraph in blog posts */
@@ -434,11 +456,10 @@ p {
   text-align: justify;
 }
 
-/* Body images:
+/* Body images in posts:
    - Embedded left/right: smaller and text wraps
    - Centered: larger, text does not wrap
 */
-
 .post-content img.embedded-left {
   float: left;
   max-width: 250px;
@@ -456,10 +477,14 @@ p {
   margin: 20px auto;
   max-width: 80%;
   height: auto;
-  float: none; /* no wrap for centered images */
+  float: none;
 }
 
-/* Portfolio Content */
+
+/* ------------------------------------------------------------
+   PORTFOLIO CONTENT
+------------------------------------------------------------ */
+
 .portfolio-extent {
   width: 80%;
   max-width: 800px;
@@ -497,7 +522,7 @@ p {
   line-height: 1; /* Helps align image top */
 }
 
-/* Portfolio Description Header (a.k.a. Subheader) */
+/* Portfolio Description Header (Subheader) */
 .portfolio-item-subheader {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 300; /* Light */
@@ -518,17 +543,17 @@ p {
   width: auto;
   align-self: flex-start;
   margin-left: auto; /* pushes image to the far right */
-  margin-top: 0; /* align top with title text top */
-  margin-bottom: 0; /* align bottom with subheader baseline */
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-/* Paragraphs follow site conventions, but no enlarged first letter here */
+/* Portfolio paragraphs */
 .portfolio-content p {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 1em;
   color: #101010;
   line-height: 1.6;
   text-indent: 2em;
-  margin-bottom: 2em; /* double spacing between paragraphs */
+  margin-bottom: 2em; 
   text-align: justify;
 }

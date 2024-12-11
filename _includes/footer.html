@@ -1,5 +1,7 @@
 <footer class="site-footer">
   <div class="footer-sections" style="flex-direction: column; align-items: center;">
+
+    {% unless page.title == "Home" %}
     <div class="footer-nav">
       <h3 class="section-heading section-heading--dark-bg">Navigation</h3>
       <div class="footer-buttons">
@@ -20,6 +22,7 @@
         {% endunless %}
       </div>
     </div>
+    {% endunless %}
 
     <div class="footer-refs">
       <h3 class="section-heading section-heading--dark-bg">Contact</h3>
