@@ -362,7 +362,7 @@ main .banner {
   gap: 20px;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 1000px) {
   .gallery {
     grid-template-columns: repeat(auto-fill, minmax(80px,1fr));
   }
