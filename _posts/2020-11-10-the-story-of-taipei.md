@@ -1,29 +1,25 @@
 ---
 layout: post
 title: "The Story of Taipei"
+subtitle: "A history translated by an outsider"
 date: 2020-11-10
 header:
   image: /assets/images/storyoftaipei.jpeg
-  caption: "Photo credit: Blake Anderson"
-categories:
-  - History
-tags:
-  - history
-  - taiwan
-  - politics
-  - urban planning
-  - blog
+language: en
+categories: [History]
+tags: [history, taiwan, politics, urban planning, blog]
 ---
 
 There is no other city in the world like Taipei.
 
 The statement may sound like some banal utterance headlining a paid tourism advert or the first sentence in the fiftieth edition of some travel guide; however, I mean it when I say that of the many places I have visited around the world, there is _no other place_ with a similar feeling.
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/228peace.jpeg" class="embedded-right" alt="">
+
+
 The city is a living concoction of seemingly contradictory qualities. All around Taipei, you can find international luxury brands, local mom and pop’s restaurants that have been in business for decades, chic coffee shops tucked away in 2-meter wide alleyways, Japanese izakaya bars, pocket parks, timeless-looking temples in the shadow of glass high rises, and neon-lit night markets accompanied with wafts of fragrant street snacks. Row upon row of orderly, square city blocks are cut into fragments by a jigsaw of alleyways where even Google Maps cannot help you. And even these quiet neighborhood alleyways, reminiscent of the 1950s, are then juxtaposed by a hypermodern metro system — arguably one of the best in the world — that moves millions of people a day from one side of the city to another. Thus, Taipei is paradoxically a comforting, chaotic, convenient, confounding, and orderly place.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/nangangsoftwarepark.jpeg" alt="Nangang Software Park (2018)">
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/228peace.jpeg" alt="">
 
 But having now lived in the city twice for unfortunately brief durations, I have been itching to understand just how Taipei came to be Taipei. Luckily enough, I worked for the city government over the summer of 2018, so that gave me just the opportunity I was looking for to dig into the city’s story.
 
@@ -51,7 +47,7 @@ In 1887, the Qing Empire reorganized the political boundaries of Taiwan by separ
 
 The decision perplexed many not just in retrospect, but contemporaneously. Tainan was by far the largest settlement on the island, with an imposing Dutch-constructed fort acting as existing coastal defense. Taipei had experienced a flurry of construction in the past decade, such as the first incarnation of the Taipei Confucius Temple, a _yamen_ (a residence for imperial bureaucrats) and the beginnings of a train line to Keelung, but was in the peripheral hinterlands when compared to Tainan. Contrary to first appearance, the government’s decision was quite rational. Qing supremacy in the region was weakening and raids from pirates and European powers were taking their toll on Taiwan. Situated in the flat coastlands, Tainan was subject to frequent attack. Taipei, however, surrounded on all sides by mountains save for coastal access to the northwest and northeast, was substantially easier to defend. There was also ample undeveloped land surrounding the walled city.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/taipeiconfuciustemple.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/taipeiconfuciustemple.jpeg" class="embedded-right" alt="">
 
 Humorously though, the government actually intended the move to Taipei to be a temporary one. The Qing originally sought to construct a permanent provincial capital near modern-day Taichung (台中) due to its central location on the island, but the plan never had time to come to fruition. Less than a decade after Taipei was declared the "interim" provincial capital of Taiwan, the island came under the occupation of the Japanese Empire.
 
@@ -63,13 +59,13 @@ At the conclusion of the First Sino-Japanese War in 1895, the Qing Empire was fo
 
 If you visit the Taipei neighborhood of _Ximending_ (“ding” is a Chinese translation of the Japanese character for “district”), you may feel as though you have stepped through a portal into the heart of Tokyo or Osaka. Giant electronic screens cover multiple stories of high-rise malls. Adverts for clothing lines and upcoming films tower over you as you walk through the streets. All around you, vendors are selling Japanese snacks, clothes, anime movies, magazines, books, and other pop-cultural items. This commercial center may feel a bit out of place considering the quiet mid-century neighborhoods that border it; but with a clear lens to the past, it is apparent why there is such a heavy Japanese cultural presence in Taipei.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ximending.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ximending.jpg" class="embedded-left" alt="">
 
 For fifty years, Japan directly ruled Taiwan. The colonial power left a tremendous mark on the country’s culture, physical appearance, and especially its spatial layout. This legacy is felt the strongest in Taipei.
 
 Taipei was in its infancy when the Japanese declared it their colonial capital of Taiwan; thus, it was the beneficiary of a substantial amount of investment and planning from the industrializing nation. Japan’s government, influenced by its contemporary European colonial rivals, had embraced European ideas of urban planning. Upon seizing control of Taiwan, the burgeoning Japanese Empire immediately began a construction frenzy in Taipei. The Office of the Governor-General of Taiwan (now the Presidential Office Building), the Red House Theatre, the Taiwan High Court, and the Public Hall were all Japanese architectural contributions to the city. The tree-lined route along Zhongshan Road to a former shrine (now the site of the Grand Hotel that hosts both local and foreign dignitaries) was a complete mirror of Tokyo’s Omotesandō Avenue, which led to the Meiji Jingu. Many of the ordinary residential and commercial structures built during this time were Japanese style one-to-two-stories, with brick and mortar exteriors. Street fronts were adorned with shaded arcades, formed by high archways and colonnades. These covered sidewalks became a staple of Taipei, and are present throughout a majority of Taipei’s boulevards and avenues. The Japanese also imported a Western-style grid street plan that has been continued in the city’s planning to this day, along with initiating Taipei’s (and Taiwan’s) railway network.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/taipeipres.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/taipeipres.jpeg" class="embedded-right" alt="">
 
 By the turn of the twentieth century, Taipei had been utterly transformed. It surpassed Tainan to be the largest city on the island. Even though there still were residents alive that could remember Taipei as two sleepy fishing villages, that past was now unrecognizable as the city had tripled in size. The most integral part of Taipei’s urban fabric shifted from the Tamsui River inland to the east. Having long outgrown its walls, the Japanese decided to demolish the old structures in 1907 as part of a series of new urban plans, yet they identified Chengnei and its surroundings as the city center. A checkerboard grid road network was built out as far as the contemporary Zhongshan (中山區) and Da’an (大安區) districts; although at the time, these districts were not densely infilled as they are today, but merely a few commercial streets mixed with agrarian residential farmland.
 

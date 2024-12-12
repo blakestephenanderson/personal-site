@@ -4,13 +4,9 @@ title: "Why I loved learning Mandarin Chinese"
 date: 2020-11-10
 header:
   image: /assets/images/chinatown.jpeg
-  caption: "Photo credit: Public Domain"
-categories:
-  - Language
-tags:
-  - language
-  - learning
-  - blog
+language: en
+categories: [Language]
+tags: [language, learning, blog]
 ---
 
 I wasn’t expecting to fall for a language, but Mandarin Chinese swept me off my feet. What started as a mild curiosity to converse with some of my friends turned into a journey that took me to Taipei three separate times. I’ve spent tens-of-thousands of hours studying the language and the more I learned, the more enthralled I became. Mandarin Chinese is special. After all, there’s no other living language that has a three-thousand-year-old, pictographic writing system.

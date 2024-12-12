@@ -1,20 +1,13 @@
 ---
 layout: post
 title: "Pet names in Japanese and Chinese"
+subtitle: "How do you call your partner or friends? Image by Kaito Kikuchi — Own Work"
 date: 2021-03-28
 header:
   image: /assets/images/petnames.jpeg
-  caption: "How do you call your partner or friends? Image by Kaito Kikuchi — Own Work"
-categories:
-  - Language
-tags:
-  - language
-  - learning
-  - chinese
-  - mandarin
-  - japanese
-  - slang
-  - blog
+language: en
+categories: [Language]
+tags: [language, learning, slang, blog]
 ---
 
 I recently watched [a video](https://www.youtube.com/watch?v=XfaifpRq9CA) from YouTubers _Rachel and Jun_ that discussed the use of pet names for your significant other in Japanese. Rachel, who is American, discussed how common it is to hear terms of endearment in the United States, while Jun said that in Japanese, there are no words like “sweety,” “honey,” “baby,” “boo,” etcetera; instead, affection is often communicated implicitly or through modifications of a person’s name.

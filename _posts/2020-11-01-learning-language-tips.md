@@ -1,16 +1,12 @@
 ---
 layout: post
-title: "Unorthodox Language-Learning Tips from a Polyglot"
+title: "Language-Learning Tips from a Polyglot"
 date: 2020-11-01
 header:
   image: /assets/images/kaitodrawing.png
-  caption: "Photo credit: Kaito Kikuchi"
-categories:
-  - Language
-tags:
-  - language
-  - learning
-  - blog
+language: en
+categories: [Language]
+tags: [language, learning, blog]
 ---
 
 One ice breaker I like to tell people is that I can speak eight different languages — and flirted with two others. After all, it’s a feat I’m proud of and required over a decade of study and reflection. The fact that I’m multilingual has also encouraged my friends and coworkers to ask me for tips on a regular basis. So, instead of giving ad hoc advice, I decided to write a small list.

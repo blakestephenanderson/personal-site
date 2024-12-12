@@ -1,20 +1,13 @@
 ---
 layout: post
 title: "The Rebranded Half of Roman History"
+subtitle: "The erasure of the Eastern Roman Empire"
 date: 2021-03-27
 header:
   image: /assets/images/rebrandedrome1.jpeg
-  caption: "San Vitale, Ravenna, Italy, by Petar Milošević — Own work, CC BY-SA 4.0"
-categories:
-  - History
-tags:
-  - history
-  - rome
-  - constantinople
-  - greek
-  - ethnicity
-  - identity
-  - blog
+language: en
+categories: [History]
+tags: [history, Rome, Constantinople, ethnicity, identity, blog]
 ---
 
 Rome is one of the most globally-discussed civilizations in history. Stories such as the Punic Wars with Carthage or Caesar’s assassination have been repeatedly dramatized and mythologized for centuries, whether by TV producers or William Shakespeare. Even after the state had collapsed, there were many Eurasian and American societies that appropriated Roman institutions, conventions, and aesthetics. Think of the neoclassical architecture in Washington D.C. and Paris (e.g., Union Station or the Arc de Triomphe), or the use of Latin in the American justice system. Some states, such as Russia or the Ottomans, even proclaimed themselves the inheritors of the Roman Empire. Our fascination with the Romans [carries on to this day](https://www.independent.co.uk/news/science/archaeology/romulus-shrine-discovery-rome-forum-archaeologists-ancient-italy-a9352886.html).
@@ -33,7 +26,7 @@ The city of Rome was founded in the 8th-century B.C.E, which is ancient for a mo
 
 Rome remained a political backwater for several centuries until the 200s B.C.E when it initiated a period of relentless expansion. By the death of [Trajan](https://www.britannica.com/biography/Trajan) in 117 C.E. The Romans were sovereigns of a territory that stretched from modern Portugal in the west to Iraq in the east, and from Egypt in the south to the United Kingdom in the north.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/rebrandedrome2.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/rebrandedrome2.png" class="embedded-right" alt="">
 
 Military conquest and diplomatic annexations were the main drivers of expansion, but what solidified Rome’s control of its new territories was its **cultural adaptability**, such as the practice of [expanding citizenship](https://en.wikipedia.org/wiki/Roman_people#Extensions_of_citizenship). Roman ethnicity evolved rapidly with the state’s growth, incorporating a [diversity of peoples](https://www.genengnews.com/news/dna-analysis-suggests-ancient-rome-represented-a-genetic-crossroads-of-europe-and-the-mediterranean/), languages, and traditions — even the men who led the Roman Empire were from diverse geographies, such as Hispania and Syria. [New religions](https://en.wikipedia.org/wiki/Sol_Invictus) were absorbed into the culture, just as Roman cities, architecture, and administration were implemented across the Mediterranean and beyond. While the peoples outside of the Roman state were othered (Roman authors viewed foreigners [often, but not always, with contempt](https://www.livius.org/articles/concept/barbarians/)), a significant number of peoples within Rome were included as Roman over time (e.g., the Celtic peoples of Gaul, Samnites, Illyrians, Carthaginians, etc.), so long as they adhered to Roman administration and cultural signifiers.
 
@@ -61,7 +54,7 @@ The efforts to obfuscate the Roman ethnicity and political claims started [long 
 
 A number of European intellectuals and elite in the 19th century subscribed to the tenuous and roundly-discredited idea of there being an imagined, unbroken line between themselves and groups of people that lived thousands of years ago (e.g., the claims that modern Germans were the same people as the ancient Cherusci tribe). This ideology, of course, was mythologizing and contributed to the dangerous political beliefs in the 20th century that caused genocide on a colossal scale. Yet, the desire to connect our societies of today to the past is still tempting to some. The controversial 19th-century statue of Hermann (or [Arminius](https://www.britannica.com/biography/Arminius), as known to the Romans) that still stands in western Germany is such a symbol.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/rebrandedrome5.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/rebrandedrome5.jpeg" class="embedded-left" alt="">
 
 It was in this period of mythologizing the past, half a century before World War II, that the term **“Byzantine Empire”** first popularly appeared, intended to describe the Roman Empire from 330–1453 C.E.
 
