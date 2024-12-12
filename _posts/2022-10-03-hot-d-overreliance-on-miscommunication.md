@@ -4,16 +4,9 @@ title: "House of the Dragon’s Overreliance on Miscommunication"
 date: 2022-10-03
 header:
   image: /assets/images/alicentrhaenyra.jpeg
-  caption: "Image from Digital Mafia Talkies"
-categories:
-  - Writing
-tags:
-  - writing
-  - storytelling
-  - fiction
-  - film
-  - books
-  - blog
+language: en
+categories: [Writing]
+tags: [writing, storytelling, fiction, film, books, blog]
 ---
 
 (Spoiler warning for episodes 1–7 of the TV show, but no _Fire & Blood_ spoilers.)
@@ -36,7 +29,7 @@ The **miscommunication trope** is the overreliance of a writing device where one
 
 This trope is often associated with romance stories — in fact, I’ve obliquely written about it [before](https://blakestephenanderson.medium.com/a-lesson-from-la-la-land-ce4c9b6b085d) — but it appears in other genres. Calling this cliché a single “trope” is misleading, too, since the miscommunication can come in a lot of different flavors.
 
-There’s the classic **misunderstanding**, where characters try and fail to resolve an existing or future conflict because of missing intensions or context. This flavor of the trope results in a conversation where both parties either walk away hurt or subsequently feel betrayed since they missed a chance to clear the air.
+There’s the classic **misunderstanding**, where characters try and fail to resolve an existing or future conflict because of missing intentions or context. This flavor of the trope results in a conversation where both parties either walk away hurt or subsequently feel betrayed since they missed a chance to clear the air.
 
 Related to that, there’s the **omission**, where a character fails to communicate how they feel to another, resulting in asymmetrical knowledge between them. There’s also the **lie**, where a character feeds false information to another, breaking trust or also leading to later feelings of betrayal.
 
@@ -47,12 +40,21 @@ Of course, that’s not to say that these miscommunications don’t happen in re
 So, after reading that, perhaps you’ll agree with me that HOT D employs this device on more than one occasion. Let’s pull the receipts:
 
 - Rhaenyra and Viserys misunderstanding one another about 1) Viserys’s intentions to marry Alicent, and; 2) Rhaenyra’s feelings about how he treats her.
+
 - Rhaenyra failing to talk to Alicent about why her marriage to her father hurt her.
+
 - Alicent failing to explain her situation (i.e., two adult men forcing her into an uncomfortable position) to her best friend, Rhaenyra.
+
+- Rhaenyra not following up with Alicent about why she was to be married to her father.
+
 - Alicent failing to admit her jealousy and envy of Rhaenyra.
+
 - Rhaenyra omitting the truth about the night she slept with Ser Criston Cole and lying to Alicent that Daemon never touched her.
+
 - Rhaenyra and Criston failing to have a conversation after the disastrous one on the boatride back to King’s Landing.
+
 - Alicent not confronting Rhaenyra upon learning the truth from Larys Strong and Criston Cole.
+
 - Daemon omitting how he feels to pretty much everyone (e.g., Rhaenyra, Viserys, Laena, Rhea).
 
 If a character in this story were to have extended an olive branch in just one of the scenes above, perhaps we’d not have reached the point in Episode 7 where Aemond loses an eye and Alicent nearly murders her former best friend. You could argue that the show would be far more boring, in which case I would agree, but I would counter by asking: was how they reached that scene believable?

@@ -1,19 +1,13 @@
 ---
 layout: post
 title: "Why tropes can be good, actually"
+subtitle: "And when it's okay to use them in your works of fiction"
 date: 2021-03-31
 header:
   image: /assets/images/trope.jpeg
-  caption: "And when it's okay to use them in your works of fiction. Image by Kaito Kikuchi — Own Work"
-categories:
-  - Writing
-tags:
-  - writing
-  - storytelling
-  - fiction
-  - film
-  - books
-  - blog
+language: en
+categories: [Writing]
+tags: [writing, storytelling, fiction, film, books, blog]
 ---
 
 Spoiler warnings: _Star Wars: The Last Jedi, Avatar: The Last Airbender, A Song of Ice and Fire/Game of Thrones, Lord of the Rings: Return of the King, Bright_

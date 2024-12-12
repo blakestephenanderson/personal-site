@@ -6,7 +6,7 @@ date: 2022-11-14
 header:
   image: /assets/images/wnc.jpeg
 language: en
-categories: [Writing]
+categories: [Langauge]
 tags: [language, identity, blog]
 ---
 

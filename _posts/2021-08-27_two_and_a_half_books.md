@@ -1,19 +1,13 @@
 ---
 layout: post
 title: "What I learned from writing two-and-a-half books"
+subtitle: "For novelists with an architect’s mind and a gardener’s soul."
 date: 2021-08-27
 header:
   image: /assets/images/twoandahalfbooks.jpeg
-  caption: "For novelists with an architect’s mind and a gardener’s soul."
-categories:
-  - Writing
-tags:
-  - writing
-  - fiction
-  - novel
-  - self
-  - advice
-  - blog
+language: en
+categories: [Writing]
+tags: [writing, fiction, novel, self, advice, blog]
 ---
 
 In 2019, I decided to embark on a journey I’d fantasized over for years: writing a novel. It was an aspiration of mine since high school, and one that I’d planned for and studied over the following decade— watching vlogs and reading books on how to construct plots, pace stories, edit, revise, and so on. But one February morning when I was barricaded in my New Jersey townhouse by a mountain of snow, I decided to act on my dream. And less than a year later, 2,000 miles away in sunny San Diego, I finished that first draft.

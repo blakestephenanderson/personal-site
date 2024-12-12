@@ -1,22 +1,16 @@
 ---
 layout: post
 title: "Historical simulation games, the good and the not-so-good"
+subtitle: "Are they an underutilized teaching tool, or do their underlying assumptions result in misunderstandings?"
 date: 2021-10-09
 header:
   image: /assets/images/ck3article.png
-  caption: "Are they an underutilized teaching tool, or do their underlying assumptions result in misunderstandings?"
-categories:
-  - Culture
-tags:
-  - history
-  - fiction
-  - video games
-  - strategy games
-  - teaching
-  - blog
+language: en
+categories: [Culture]
+tags: [history, fiction, video games, education, blog]
 ---
 
-If you ask most people who know me to list one fact about me, I’d wager the first thing that’d come to their mind would be, “he’s a huge history nerd.” History has been a lifelong passion and, unlike most interests, I can trace it back to a single event: playing the video game [Civilization III](https://en.wikipedia.org/wiki/Civilization_III) as a child. The mythic characters that stood as synecdoches for civilizations enthralled me. Ever since playing that game, I’ve indulged in untold hours of reading academic books, parsing through primary documents, and even contemplating getting a Ph.D. in medieval Roman ([Byzantine](https://en.wikipedia.org/wiki/Byzantine_Empire)) history.
+If you ask most people who know me to list one fact about me, I’d wager the first thing that’d come to their mind would be, “he’s a huge history nerd.” History has been a lifelong passion and, unlike most interests, I can trace it back to a single event: playing the video game [Civilization III](https://en.wikipedia.org/wiki/Civilization_III) as a child. The mythic characters that stood as synecdoches for civilizations captivated my little eight-year-old self. Ever since playing that game, I’ve indulged in untold hours of reading academic books, parsing through primary documents, and even contemplating getting a Ph.D. in medieval Roman ([Byzantine](https://en.wikipedia.org/wiki/Byzantine_Empire)) history.
 
 That’s what most parents want for their kids, right? To find some passion in school, to excel in a particular subject? Yet, I remember most of my high school peers’ eyes glazed over the moment they walked through the doors of the history classroom. Perhaps if they’d been exposed to historical simulation grand strategy games as teaching tools, some of them would have grown to love the subject as much as I did.
 
@@ -24,7 +18,7 @@ That’s what most parents want for their kids, right? To find some passion in s
 
 Gamifying a subject is a popular strategy for learning — well, anything. Look at products like DuoLingo that eschew the classroom environment in favor of teaching languages like a game.
 
-Historical simulation games follow the same formula. A person completely disinterested in history might purchase a copy of Civilization or Age of Empires and play for the strategy component or to compete with their friends online, all while passively consuming real-world history. I distinctly remember learning about the [Celts](https://en.wikipedia.org/wiki/Celts) and the [Daimyo](https://en.wikipedia.org/wiki/Daimyo) from the aforementioned Civilization III.
+Historical simulation games follow the same formula. A person completely disinterested in history might purchase a copy of _Civilization_ or _Age of Empires_ and play for the strategy component or to compete with their friends online, all while passively consuming real-world history. I distinctly remember learning about the [Celts](https://en.wikipedia.org/wiki/Celts) and the [Daimyo](https://en.wikipedia.org/wiki/Daimyo) from the aforementioned Civilization III.
 
 Playing historical simulations can also open a person’s eyes to diversity — different cultures around the world — particularly role-playing games where the player embodies a character or state. In the 2020 grand strategy game [Crusader Kings III](https://www.crusaderkings.com/en), players can select a historical ruler from across Africa (above the Congo) and Europe, all the way to Tibet, and steer their dynasty’s fortunes. One of the first games I played was as [Magajiya Daurama](https://en.wikipedia.org/wiki/Daurama), a Hausa ruler in what is now northern Nigeria. I had never heard of her before playing the game, but learned that she was the last female ruler of the Hausa people before the matriarchal royal system was abolished. It was also the first time I’d heard of her [Bori](https://en.wikipedia.org/wiki/Hausa_animism) faith, which still exists today. I’d likely have never learned these stories about human history were it not for the game; other than covering its colonial exploitation and slavery, West African history was extremely lacking in my curriculum.
 
