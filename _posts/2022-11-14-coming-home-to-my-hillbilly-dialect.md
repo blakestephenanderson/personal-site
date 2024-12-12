@@ -1,19 +1,13 @@
 ---
 layout: post
 title: "Coming home to my 'hillbilly' dialect"
+subtitle: "Explanations and reflections from a former Smoky Mountain local"
 date: 2022-11-14
 header:
   image: /assets/images/wnc.jpeg
-  caption: "Explanations and reflections from a former Smoky Mountain local"
-categories:
-  - Writing
-tags:
-  - writing
-  - language
-  - appalachia
-  - self
-  - identity
-  - blog
+language: en
+categories: [Writing]
+tags: [language, identity, blog]
 ---
 
 Over the years, I’ve brought many friends back to the county where I grew up. These people came from a variety of backgrounds — different regions, countries, native languages, ethnicities — but one consistent thread between the experiences has been their surprise at the local dialect.
