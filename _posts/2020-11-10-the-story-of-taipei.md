@@ -19,13 +19,13 @@ The statement may sound like some banal utterance headlining a paid tourism adve
 
 The city is a living concoction of seemingly contradictory qualities. All around Taipei, you can find international luxury brands, local mom and pop’s restaurants that have been in business for decades, chic coffee shops tucked away in 2-meter wide alleyways, Japanese izakaya bars, pocket parks, timeless-looking temples in the shadow of glass high rises, and neon-lit night markets accompanied with wafts of fragrant street snacks. Row upon row of orderly, square city blocks are cut into fragments by a jigsaw of alleyways where even Google Maps cannot help you. And even these quiet neighborhood alleyways, reminiscent of the 1950s, are then juxtaposed by a hypermodern metro system — arguably one of the best in the world — that moves millions of people a day from one side of the city to another. Thus, Taipei is paradoxically a comforting, chaotic, convenient, confounding, and orderly place.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/nangangsoftwarepark.jpeg" alt="Nangang Software Park (2018)">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/nangangsoftwarepark.jpeg" class="centered" alt="Nangang Software Park (2018)">
 
 But having now lived in the city twice for unfortunately brief durations, I have been itching to understand just how Taipei came to be Taipei. Luckily enough, I worked for the city government over the summer of 2018, so that gave me just the opportunity I was looking for to dig into the city’s story.
 
 ## Tracing Threads: Back to the Beginning
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/tamsui.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/tamsui.jpeg" class="centered" alt="">
 
 Anyone who has visited before knows that Taipei is nestled in a wet and humid basin surrounded by rainforest-covered mountains. The basin, which now contains the urban conglomeration of both Taipei and New Taipei City, was once submerged beneath a vast, shallow lake. Imperial documents from the Ming Dynasty report that the lake was formed from an earthquake, which disrupted the flow of the region’s rivers. According to a contemporary folk historian, the lake was so vast that if a person were to stand on the shoreline, the far shore would not be visible.
 
