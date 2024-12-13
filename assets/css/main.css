@@ -545,7 +545,7 @@ main .banner {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: bold;
   color: #101010;
-  font-size: 2.5em; 
+  font-size: 1.67em; 
   margin: 0;
   line-height: 1; /* Helps align image top */
 }
@@ -561,19 +561,18 @@ main .banner {
   line-height: 1; /* Consistent line-height for alignment */
 }
 
-/* Preview image fixed small size */
+/* Preview image */
 .portfolio-preview-image {
-  max-width: 100px;
-  height: auto;
-  border-radius: 5px;
-  object-fit: cover;
-  height: 60px;
-  width: auto;
-  align-self: flex-start;
-  margin-left: auto; /* pushes image to the far right */
-  margin-top: 0;
-  margin-bottom: 0;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* ensure it fits within .portfolio-content width */
 }
+
+/* Add spacing below the image */
+.portfolio-preview-image {
+  margin-bottom: 25px;
+}
+
 
 /* Portfolio paragraphs */
 .portfolio-content p {
@@ -582,6 +581,8 @@ main .banner {
   color: #101010;
   line-height: 1.6;
   text-indent: 2em;
+  max-width: 700px; /* controls width of text and image */
+  margin: 0 auto;
   margin-bottom: 2em; 
   text-align: justify;
 }

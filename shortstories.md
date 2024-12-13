@@ -4,6 +4,9 @@ title: "Short Stories"
 permalink: /short-stories/
 ---
 
+
+Feature coming soon...
+
 <main>
   <div class="blog-grid">
     {% for story in site.stories %}
