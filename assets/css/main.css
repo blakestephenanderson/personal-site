@@ -565,7 +565,7 @@ main .banner {
 .portfolio-preview-image {
   display: block;
   margin: 0 auto;
-  max-width: 100%; /* ensure it fits within .portfolio-content width */
+  max-width: 75%; /* ensure it fits within .portfolio-content width */
 }
 
 /* Add spacing below the image */
